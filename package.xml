@@ -17,7 +17,7 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2016-02-02</date>
+ <date>2017-10-17</date>
  <version>
   <release>2.0.4</release>
   <api>1.0.0</api>
@@ -50,7 +50,6 @@
         <file name="syncml_server_packet_1.xml" role="doc" />
         <file name="z600_client_0.wbxml" role="doc" />
        </dir> <!-- /doc/Horde/Xml/Wbxml/examples -->
-       <file name="COPYING" role="doc" />
       </dir> <!-- /doc/Horde/Xml/Wbxml -->
      </dir> <!-- /doc/Horde/Xml -->
     </dir> <!-- /doc/Horde -->
@@ -89,6 +88,7 @@
      </dir> <!-- /test/Horde/Xml -->
     </dir> <!-- /test/Horde -->
    </dir> <!-- /test -->
+   <file name="LICENSE" role="doc" />
   </dir> <!-- / -->
  </contents>
  <dependencies>
@@ -121,7 +121,6 @@
  </dependencies>
  <phprelease>
   <filelist>
-   <install as="COPYING" name="doc/Horde/Xml/Wbxml/COPYING" />
    <install as="examples/devinf.wbxml" name="doc/Horde/Xml/Wbxml/examples/devinf.wbxml" />
    <install as="examples/k500i_client_0.wbxml" name="doc/Horde/Xml/Wbxml/examples/k500i_client_0.wbxml" />
    <install as="examples/k700i_syncml_client_0.wbxml" name="doc/Horde/Xml/Wbxml/examples/k700i_syncml_client_0.wbxml" />
@@ -138,14 +137,15 @@
    <install as="Horde/Xml/Wbxml/ContentHandler.php" name="lib/Horde/Xml/Wbxml/ContentHandler.php" />
    <install as="Horde/Xml/Wbxml/Decoder.php" name="lib/Horde/Xml/Wbxml/Decoder.php" />
    <install as="Horde/Xml/Wbxml/Dtd.php" name="lib/Horde/Xml/Wbxml/Dtd.php" />
+   <install as="Horde/Xml/Wbxml/Dtd/SyncMl.php" name="lib/Horde/Xml/Wbxml/Dtd/SyncMl.php" />
+   <install as="Horde/Xml/Wbxml/Dtd/SyncMlDevInf.php" name="lib/Horde/Xml/Wbxml/Dtd/SyncMlDevInf.php" />
+   <install as="Horde/Xml/Wbxml/Dtd/SyncMlMetInf.php" name="lib/Horde/Xml/Wbxml/Dtd/SyncMlMetInf.php" />
    <install as="Horde/Xml/Wbxml/DtdManager.php" name="lib/Horde/Xml/Wbxml/DtdManager.php" />
    <install as="Horde/Xml/Wbxml/Encoder.php" name="lib/Horde/Xml/Wbxml/Encoder.php" />
    <install as="Horde/Xml/Wbxml/Exception.php" name="lib/Horde/Xml/Wbxml/Exception.php" />
    <install as="Horde/Xml/Wbxml/HashTable.php" name="lib/Horde/Xml/Wbxml/HashTable.php" />
    <install as="Horde/Xml/Wbxml/LifoQueue.php" name="lib/Horde/Xml/Wbxml/LifoQueue.php" />
-   <install as="Horde/Xml/Wbxml/Dtd/SyncMl.php" name="lib/Horde/Xml/Wbxml/Dtd/SyncMl.php" />
-   <install as="Horde/Xml/Wbxml/Dtd/SyncMlDevInf.php" name="lib/Horde/Xml/Wbxml/Dtd/SyncMlDevInf.php" />
-   <install as="Horde/Xml/Wbxml/Dtd/SyncMlMetInf.php" name="lib/Horde/Xml/Wbxml/Dtd/SyncMlMetInf.php" />
+   <install as="LICENSE" name="LICENSE" />
    <install as="Horde/Xml/Wbxml/AllTests.php" name="test/Horde/Xml/Wbxml/AllTests.php" />
    <install as="Horde/Xml/Wbxml/bootstrap.php" name="test/Horde/Xml/Wbxml/bootstrap.php" />
    <install as="Horde/Xml/Wbxml/DecodeTest.php" name="test/Horde/Xml/Wbxml/DecodeTest.php" />
@@ -339,7 +339,7 @@
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2016-02-02</date>
+   <date>2017-10-17</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * 
