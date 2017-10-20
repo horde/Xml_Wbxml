@@ -17,7 +17,7 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-17</date>
+ <date>2017-10-20</date>
  <version>
   <release>2.0.4</release>
   <api>1.0.0</api>
@@ -83,7 +83,6 @@
        <file name="AllTests.php" role="test" />
        <file name="bootstrap.php" role="test" />
        <file name="DecodeTest.php" role="test" />
-       <file name="phpunit.xml" role="test" />
       </dir> <!-- /test/Horde/Xml/Wbxml -->
      </dir> <!-- /test/Horde/Xml -->
     </dir> <!-- /test/Horde -->
@@ -149,7 +148,6 @@
    <install as="Horde/Xml/Wbxml/AllTests.php" name="test/Horde/Xml/Wbxml/AllTests.php" />
    <install as="Horde/Xml/Wbxml/bootstrap.php" name="test/Horde/Xml/Wbxml/bootstrap.php" />
    <install as="Horde/Xml/Wbxml/DecodeTest.php" name="test/Horde/Xml/Wbxml/DecodeTest.php" />
-   <install as="Horde/Xml/Wbxml/phpunit.xml" name="test/Horde/Xml/Wbxml/phpunit.xml" />
   </filelist>
  </phprelease>
  <changelog>
@@ -339,7 +337,7 @@
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2017-10-17</date>
+   <date>2017-10-20</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * 
