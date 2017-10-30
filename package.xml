@@ -17,7 +17,7 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2016-02-02</date>
+ <date>2017-10-30</date>
  <version>
   <release>2.0.4</release>
   <api>1.0.0</api>
@@ -50,6 +50,7 @@
         <file name="syncml_server_packet_1.xml" role="doc" />
         <file name="z600_client_0.wbxml" role="doc" />
        </dir> <!-- /doc/Horde/Xml/Wbxml/examples -->
+       <file name="CHANGES" role="doc" />
        <file name="COPYING" role="doc" />
       </dir> <!-- /doc/Horde/Xml/Wbxml -->
      </dir> <!-- /doc/Horde/Xml -->
@@ -121,6 +122,7 @@
  </dependencies>
  <phprelease>
   <filelist>
+   <install as="CHANGES" name="doc/Horde/Xml/Wbxml/CHANGES" />
    <install as="COPYING" name="doc/Horde/Xml/Wbxml/COPYING" />
    <install as="examples/devinf.wbxml" name="doc/Horde/Xml/Wbxml/examples/devinf.wbxml" />
    <install as="examples/k500i_client_0.wbxml" name="doc/Horde/Xml/Wbxml/examples/k500i_client_0.wbxml" />
@@ -339,7 +341,7 @@
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2016-02-02</date>
+   <date>2017-10-30</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * 
