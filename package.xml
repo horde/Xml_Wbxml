@@ -3,21 +3,21 @@
  <name>Horde_Xml_Wbxml</name>
  <channel>pear.horde.org</channel>
  <extends>XML_WBXML</extends>
- <summary>Horde_Xml_Wbxml provides an API for encoding and decoding WBXML documents used in SyncML and other wireless applications</summary>
- <description>Encoding and decoding of WBXML (Wireless Binary XML) documents. WBXML is used in SyncML for transferring smaller amounts of data with wireless devices.</description>
- <lead>
-  <name>Chuck Hagenbuch</name>
-  <user>chuck</user>
-  <email>chuck@horde.org</email>
-  <active>yes</active>
- </lead>
+ <summary>WBXML library</summary>
+ <description>Horde_Xml_Wbxml provides an API for encoding and decoding WBXML documents used in SyncML and other wireless applications. Encoding and decoding of WBXML (Wireless Binary XML) documents. WBXML is used in SyncML for transferring smaller amounts of data with wireless devices.</description>
  <lead>
   <name>Jan Schneider</name>
   <user>jan</user>
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-30</date>
+ <lead>
+  <name>Chuck Hagenbuch</name>
+  <user>chuck</user>
+  <email>chuck@horde.org</email>
+  <active>no</active>
+ </lead>
+ <date>2017-11-14</date>
  <version>
   <release>2.0.4</release>
   <api>1.0.0</api>
@@ -341,7 +341,7 @@
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2017-10-30</date>
+   <date>2017-11-14</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * 

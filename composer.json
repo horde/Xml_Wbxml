@@ -1,23 +1,23 @@
 {
     "name": "horde/xml-wbxml",
-    "description": "Horde_Xml_Wbxml provides an API for encoding and decoding WBXML documents used in SyncML and other wireless applications",
+    "description": "WBXML library",
     "type": "library",
-    "homepage": "https://pear.horde.org",
+    "homepage": "https://www.horde.org/libraries/Horde_Xml_Wbxml",
     "license": "LGPL-2.1",
     "authors": [
-        {
-            "name": "Chuck Hagenbuch",
-            "email": "chuck@horde.org",
-            "role": "lead"
-        },
         {
             "name": "Jan Schneider",
             "email": "jan@horde.org",
             "role": "lead"
+        },
+        {
+            "name": "Chuck Hagenbuch",
+            "email": "chuck@horde.org",
+            "role": "lead"
         }
     ],
     "version": "2.0.4",
-    "time": "2016-02-02",
+    "time": "2017-11-14",
     "repositories": [
         {
             "type": "pear",
