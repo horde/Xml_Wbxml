@@ -89,7 +89,7 @@ class Horde_Xml_Wbxml_Decoder extends Horde_Xml_Wbxml_ContentHandler
      */
     public function getByte($input)
     {
-        return ord($input{$this->_strpos++});
+        return ord($input[$this->_strpos++]);
     }
 
     /**
