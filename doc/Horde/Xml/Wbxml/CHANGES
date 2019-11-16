@@ -1,6 +1,9 @@
-----------
-v2.0.4-git
-----------
+------
+v2.0.4
+------
+
+[mjr] Fix phplint warnings (Remi Collet <remi@remirepo.net>, PR #1).
+
 
 
 ------
