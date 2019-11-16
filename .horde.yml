@@ -3,10 +3,10 @@ id: Xml_Wbxml
 name: Xml_Wbxml
 full: WBXML library
 description: >-
-  A library for encoding and decoding WBXML documents used
-  in SyncML and other wireless applications. Encoding and decoding of WBXML
-  (Wireless Binary XML) documents. WBXML is used in SyncML for transferring
-  smaller amounts of data with wireless devices.
+  A library for encoding and decoding WBXML documents used in SyncML and other
+  wireless applications. Encoding and decoding of WBXML (Wireless Binary XML)
+  documents. WBXML is used in SyncML for transferring smaller amounts of data
+  with wireless devices.
 list: dev
 type: library
 homepage: https://www.horde.org/libraries/Horde_Xml_Wbxml
