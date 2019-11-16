@@ -49,7 +49,7 @@ class Horde_Xml_Wbxml_Encoder extends Horde_Xml_Wbxml_ContentHandler
     /**
      * Constructor.
      */
-    public function Horde_Xml_Wbxml_Encoder()
+    public function __construct()
     {
         $this->_dtdManager = new Horde_Xml_Wbxml_DtdManager();
         $this->_stringTable = new Horde_Xml_Wbxml_HashTable();
@@ -213,7 +213,7 @@ class Horde_Xml_Wbxml_Encoder extends Horde_Xml_Wbxml_ContentHandler
 
         $bytes = array();
         for ($i = 0; $i < $nbytes; $i++) {
-            $bytes[] = $string{$i};
+            $bytes[] = $string[$i];
         }
 
         return $bytes;
@@ -422,7 +422,7 @@ class Horde_Xml_Wbxml_Encoder extends Horde_Xml_Wbxml_ContentHandler
             $this->_output .= chr(Horde_Xml_Wbxml::GLOBAL_TOKEN_SWITCH_PAGE);
             $this->_output .= chr($cp);
         } else {
-            $this->_subParser = new Horde_Xml_Wbxml_Encoder(true);
+            $this->_subParser = new Horde_Xml_Wbxml_Encoder();
             $this->_subParserStack = 1;
         }
     }
