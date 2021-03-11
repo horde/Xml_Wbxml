@@ -6,8 +6,11 @@
  * @package    Xml_Wbxml
  * @subpackage UnitTests
  */
+namespace Horde\Xml;
+use \Wbxml;
+use PHPUnit\Framework\TestCase;
 
-class Horde_Xml_Wbxml_DecodeTest extends PHPUnit_Framework_TestCase
+class DecodeTest extends TestCase
 {
     public function testDecode()
     {
