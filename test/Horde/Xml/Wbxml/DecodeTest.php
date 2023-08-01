@@ -7,7 +7,7 @@
  * @subpackage UnitTests
  */
 
-class Horde_Xml_Wbxml_DecodeTest extends PHPUnit_Framework_TestCase
+class Horde_Xml_Wbxml_DecodeTest extends Horde_Test_Case
 {
     public function testDecode()
     {
